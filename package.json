@@ -1,0 +1,20 @@
+{
+  "name": "olive",
+  "version": "0.0.1",
+  "description": "Quick http server",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "chai": "^4.2.0",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
+}
